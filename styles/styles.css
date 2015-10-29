@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  width: 100%; }
+  body header {
+    width: 100%;
+    height: 50px;
+    background-color: #F5F5F5;
+    padding: 9px 150px 7px 150px; }
+    body header nav a {
+      text-decoration: none; }
+      body header nav a img {
+        height: 30px;
+        width: 30px; }
+      body header nav a span {
+        font-size: 30px; }
+        body header nav a span .octicon octicon-bell {
+          margin-left: 257px;
+          font-size: 50px; }
+    body header nav input {
+      width: 335px;
+      height: 33px; }
+  body .summary {
+    width: 300px;
+    margin-left: 100px; }
+    body .summary img {
+      height: 235px;
+      width: 235px; }
+    body .summary h1 {
+      font-size: 2em; }
+  body .posts {
+    clear: both;
+    float: right; }

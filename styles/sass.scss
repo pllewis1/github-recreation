@@ -1,0 +1,53 @@
+@import '../bower_components/bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import '../bower_components/bower_components/neat/app/assets/stylesheets/neat';
+
+body {
+width: 100%;
+
+
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #F5F5F5;
+  padding: 9px 150px 7px 150px;
+   nav {
+     a{
+       text-decoration: none;
+       img {
+         height: 30px;
+         width: 30px;
+       }
+    span{
+      font-size: 30px;
+      & .octicon octicon-bell {
+        margin-left: 257px;
+        font-size: 50px;
+      }
+    }
+  }
+    input{
+      width: 335px;
+      height: 33px;
+    }
+
+
+    }
+  }
+  .summary {
+    width: 300px;
+    margin-left: 100px;
+    img{
+      height: 235px;
+      width: 235px;
+    }
+    h1 {
+          font-size: 2em;
+    }
+  }
+
+.posts {
+  clear: both;
+  float: right;
+
+  }
+}
