@@ -9,54 +9,58 @@
   </head>
   <body>
     <header>
-      <nav>
-        <span class="octicon octicon-mark-github"></span>
+      <nav class="left_nav">
+        <a id="main_icon" class="octicon octicon-mark-github"></a>
         <input type="text" name="name" placeholder="Search GitHub" value="">
-        <a href="#">Pull requests</a>
+        <a id="pull" href="#">Pull requests</a>
         <a href="#">Issues</a>
         <a href="#">Gist</a>
-        <a href="#"><span class="octicon octicon-bell"></span>
-        </a>
-        <a href="#"><span class="octicon octicon-plus"></span>
-          <span class="octicon octicon-triangle-down"></span>
-        </a>
-        <a href="#"><img class="eff" src="octicons/miniprofile.png" alt="" />
-          <span class="octicon octicon-triangle-down"></span>
-        </a>
+      </nav>
+      <nav class="right_nav">
+        <a  href="#" class="octicon octicon-bell"></a>
+
+        <a href="#" class="octicon octicon-plus"></a>
+        <a class="octicon octicon-triangle-down"></a>
+        <a class="image_container" href="#"></a>
+        <a id="far_right"class= "octicon octicon-triangle-down" href="#"></a>
+
       </nav>
     </header>
 <section class="summary">
-<img src="octicons/miniprofile.png" alt="" />
-<h1>Patrick Lewis</h1>
-<h2>pllewis1</h2>
+<a class="image_container" href="#"> </a>
+
 <p>
   <span class="octicon octicon-location"></span> Nashville, TN
 </p>
 <p>
   <span class="octicon octicon-clock"></span> Joined on Oct 5, 2015
 </p>
-<div class="F">
-   <p>
-    Followers
-  </p>
-</div>
-<div class="S">
+  <article class="">
 
-  <p>
-    Starred
-  </p>
-</div>
-<div class="G">
+    <div class="F">
+      <p>
 
-  <p>
-    Following
-  </p>
-</div>
+      </p>
+    </div>
+    <div class="S">
+
+      <p>
+
+      </p>
+    </div>
+    <div class="G">
+
+      <p>
+
+      </p>
+    </div>
+
+  </article>
 </section>
 <section class="posts">
   <nav class="broad">
     <a href="#"><span class="octicon octicon-plus"></span> Contributions</a>
-    <a href="#"><span class="octicon octicon-repo"></span> Repositories</a>
+    <a class="current" href="#"><span class="octicon octicon-repo"></span> Repositories</a>
     <a href="#"><span class="octicon octicon-rss"></span> Public activity</a>
     <button type="button" name="button"><span class="octicon octicon-pencil"></span> Edit profile</button>
 
@@ -64,13 +68,13 @@
   <nav class="repository">
     <input type="text" name="name" placeholder="Find a repository..." value="">
     <button type="button" name="searchbtn">Search</button>
-    <a href="#">All</a>
+    <a class="all" href="#">All</a>
     <a href="#">Public</a>
     <a href="#">Private</a>
     <a href="#">Sources</a>
     <a href="#">Forks</a>
     <a href="#">Mirrors</a>
-    <button type="button" name="button"><span class="octicon octicon-repo">New</button>
+    <button class="new" type="button" name="button"><span class="octicon octicon-repo">New</button>
   </nav>
   <article class="repo">
 
